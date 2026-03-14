@@ -1,6 +1,10 @@
 #include "rules.h"
 #include <raylib.h>
 
+int *get_valid_moves(int board[]){
+    
+}
+
 bool check_pawn(int start_x, int start_y, int end_x, int end_y, enum PIECE_COLOR color, int board[]){
     bool ret = true;
     enum PIECE_COLOR opnonent;

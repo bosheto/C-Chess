@@ -41,6 +41,8 @@ int main ()
 		// draw our texture to the screen
 		// DrawTexture(wabbit, 400, 200, WHITE);
 		
+		DrawRectangle(0,0, 100, 100, Fade(GREEN, 0.2));
+
 		if(IsMouseButtonReleased(MOUSE_BUTTON_LEFT)){
 			Vector2 pos = GetMousePosition();
 			click(pos);
